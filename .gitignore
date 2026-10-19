@@ -1,0 +1,27 @@
+# Captures, extracted assets, caches, logs, and verification artifacts.
+/output/
+
+# Locally supplied RenderDoc distribution and private launchers.
+/RenderDoc/
+*.bat
+*.cmd
+/run_lobby_capture.ps1
+
+# Keep capture data out of commits even if saved outside output/.
+*.rdc
+*_assets/
+/captures/
+/viewer_cache/
+/verification/
+
+# Local tooling and credentials.
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+.env
+.env.*
+.codex/
+.agents/
+.aws/
+*.log
